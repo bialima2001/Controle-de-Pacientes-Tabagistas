@@ -209,6 +209,10 @@ void MainWindow::on_tbl_turma_cellDoubleClicked(int row, int column)
         nome = QInputDialog::getText(this, "Editar", "Qual é o endereço do pacinete?", QLineEdit::Normal);
     }else if(column == 4){
         nome = QInputDialog::getText(this, "Editar", "Quantos cigarros o paciente fuma por dia?", QLineEdit::Normal);
+    }else if(column == 6){
+        nome = QInputDialog::getText(this, "Editar", "Deseja alterar a situação da recuperação do paciente? Digite Sim ou Não:", QLineEdit::Normal);
+    }else{
+        QMessageBox::information(this, "Editar", "Você não tem permissão para alterar a medicação!");   
     }
     turma_pacientes.mudarNaTurma(row, column, nome);
     for(int i=0; i<turma_pacientes.totalDePacientes(); i++){
