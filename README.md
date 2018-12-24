@@ -20,7 +20,7 @@ Para cadastrar um paciente, basta informar seu nome, endereço, número do cart�
 
 Após feito isso, o paciente será inserido na turma e apresentado na tabela. Existem dois botões na aba da tabela, um que permite organizar a turma por meio do nome e outro por meio da quantidade de cigarros fumados, basta clicar em qualquer um de sua preferência. A figura abaixo mostra a tabela organizada pelo nome.
 
-![](imagens/OrdenarporNome.PNG)
+![](imagens/OrdenarPorNome.PNG)
 
 A figura abaixo mostra a tabela organizada pelo número de cigarros fumados por cada paciente.
 
