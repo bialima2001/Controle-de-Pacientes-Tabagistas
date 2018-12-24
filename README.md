@@ -14,5 +14,7 @@ E uma aba para mostrar as estatísticas da turma, na qual é possível visualiza
 
 ## Como inserir um paciente na turma
 
-Para cadastrar um paciente, basta informar seu nome, endereço, número do cartão do SUS, data de nascimento e quantos cigarros fuma durante o dia. Além disso, caso o tratamento tenha obtido êxito e o paciente tenha abandonado o vício, basta clicar no check Box.
+Para cadastrar um paciente, basta informar seu nome, endereço, número do cartão do SUS, data de nascimento e quantos cigarros fuma durante o dia. Além disso, caso o tratamento tenha obtido êxito e o paciente tenha abandonado o vício, basta clicar no check Box. Por fim, clicar no botão "Inserir".
+
+![](imagens/InserirPaciente.PNG)
 
