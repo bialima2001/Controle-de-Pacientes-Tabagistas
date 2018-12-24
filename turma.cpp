@@ -60,6 +60,13 @@ void Turma::mudarNaTurma(int i, int j, QString x)
     }else if(j==4){
         turma[i].setCigarros(x.toInt());
         turma[i].setTratamento();
-    }
+    }else if(j==6){
+        if(x=="sim" or x=="Sim" or x=="SIM"){
+            if(turma[i].getRecuperacao()){
+                turma[i].setRecuperacao(false);
+            }else{
+                turma[i].setRecuperacao(true);
+            }
+        }
 }
 
